@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: template-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    format-sql: true
+
+  datasource:
+    data-username: sa
+    data-password:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  security:
+    user:
+      name: user
+      password: user
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka
+
+
