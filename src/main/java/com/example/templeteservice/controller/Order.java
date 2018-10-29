@@ -1,4 +1,4 @@
-package com.sample.example.templeteservice;
+package com.example.templeteservice.controller;
 
 
 import lombok.AllArgsConstructor;

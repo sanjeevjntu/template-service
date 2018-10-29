@@ -1,4 +1,4 @@
-package com.sample.example.templeteservice;
+package com.example.templeteservice.controller;
 
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;

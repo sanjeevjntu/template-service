@@ -1,4 +1,4 @@
-package com.sample.example.templeteservice;
+package com.example.templeteservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
